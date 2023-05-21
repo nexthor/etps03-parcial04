@@ -47,8 +47,7 @@ class ClientMaintenanceScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          EditClientScreen(key: client?['Id'], client: client),
+                      builder: (context) => EditClientScreen(client: client),
                     ),
                   );
                 },
